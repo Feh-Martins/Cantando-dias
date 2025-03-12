@@ -11,7 +11,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Caminho da imagem no computador
-image_path = "C:\\Users\\Administrador\\Desktop\\2025\\Nova pasta\\tempo\\WhatsApp Image 2025-03-11 at 20.32.28 (1).jpeg"  # Altere para o caminho correto
+image_path = "https://github.com/Feh-Martins/Cantando-dias/blob/4720a63c55e8a2960a6751d27e92f856aec280b9/WhatsApp%20Image%202025-03-11%20at%2020.32.28%20(1).jpeg"  # Altere para o caminho correto
 
 # Obtém o código base64 da imagem
 base64_image = get_base64_of_image(image_path)
@@ -35,7 +35,7 @@ st.markdown(
 
 st.title("Esperando a Boneca!!!")
 st.write("Para: Bianca, a menina do olhar hipnotizante ❤️")
-st.write("Tudo começou em - Mairinque, dia 04 de outubro de 2024 às mais ou menos 02:00h da madrugada!")
+st.write("Tudo começou em - Mk, dia 04 de outubro de 2024 às mais ou menos 02:00h da madrugada!")
 st.write("Eu te enxergava assim, como uma princesa!")
 st.markdown("Deus e os santos daquela igreja são minhas testemunhas!")
 
