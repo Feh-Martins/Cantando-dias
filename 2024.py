@@ -11,7 +11,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Caminho da imagem no computador
-image_path = "C:\\Users\\Administrador\\Desktop\\4° Semestre\\Projeto Integrador\\venv\\apps\\WhatsApp Image 2025-03-11 at 20.32.28 (1).jpeg"  # Altere para o caminho correto
+image_path = "C:\\Users\\Administrador\\Desktop\\2025\\Nova pasta\\tempo\\WhatsApp Image 2025-03-11 at 20.32.28 (1).jpeg"  # Altere para o caminho correto
 
 # Obtém o código base64 da imagem
 base64_image = get_base64_of_image(image_path)
