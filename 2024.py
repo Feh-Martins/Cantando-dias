@@ -4,7 +4,33 @@ import time
 import base64
 
 st.set_page_config(page_title="Contando os dias", page_icon="🌕")
+# Função para converter a imagem local em base64
+def get_base64_of_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
 
+# Caminho da imagem no seu projeto (coloque a imagem na mesma pasta do código ou em uma subpasta)
+image_path = "images/WhatsApp Image 2025-03-11 at 20.32.28 (1).jpeg"  # Alterar para o caminho correto
+
+# Obtém o código base64 da imagem
+base64_image = get_base64_of_image(image_path)
+
+# Adicionando CSS para definir o fundo e deixar o texto branco
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background: url("data:image/jpeg;base64,{base64_image}") no-repeat center center fixed;
+        background-size: cover;
+        color: white;  /* Deixa todo o texto branco */
+    }}
+    h1, h2, h3, h4, h5, h6, p, div, span {{
+        color: white !important; /* Garante que todos os textos fiquem brancos */
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.title("Esperando a Boneca!!!")
 st.write("Para a menina do olhar hipnotizante ❤️")
