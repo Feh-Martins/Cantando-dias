@@ -34,6 +34,7 @@ st.markdown(
 
 st.title("Esperando a Boneca!!!")
 st.write("Para a menina do olhar hipnotizante ❤️")
+st.write("Eu ja te enxerguei como essa princesa")
 st.write("Tudo começou em - Mk, dia 04 de outubro de 2024 a mais ou menos 02:00h da madrugada!")
 st.write("Eu te enxergava assim, como uma princesa!")
 st.markdown("Deus e os santos daquela igreja são minhas testemunhas!")
