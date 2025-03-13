@@ -38,8 +38,7 @@ st.write("Eu ja te enxerguei como essa princesa")
 st.write("Tudo começou em - Mk, dia 04 de outubro de 2024 a mais ou menos 02:00h da madrugada!")
 st.write("Eu te enxergava assim, como uma princesa!")
 st.markdown("Deus e os santos daquela igreja são minhas testemunhas!")
-st.write("Você é como a Lua 🌕")
-st.write("Linda e muito longe de mim!!!!")
+
 
 # Loop para atualização em tempo real
 while True:
@@ -54,6 +53,9 @@ while True:
     st.metric(label="Horas", value=f"{hours}")
     st.metric(label="Minutos", value=f"{minutes}")
     st.metric(label="Segundos", value=f"{seconds}")
+
+    st.write("Você é como a Lua 🌕")
+    st.write("Linda e muito longe de mim!!!!")
     
     time.sleep(1)
     st.rerun()
