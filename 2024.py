@@ -7,7 +7,7 @@ st.set_page_config(page_title="Contando os dias", page_icon="🌕")
 
 
 st.title("Esperando a Boneca!!!")
-st.write("Para: Bianca, a menina do olhar hipnotizante ❤️")
+st.write("Para a menina do olhar hipnotizante ❤️")
 st.write("Tudo começou em - Mk, dia 04 de outubro de 2024 às mais ou menos 02:00h da madrugada!")
 st.write("Eu te enxergava assim, como uma princesa!")
 st.markdown("Deus e os santos daquela igreja são minhas testemunhas!")
