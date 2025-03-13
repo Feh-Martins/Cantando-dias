@@ -5,18 +5,6 @@ import base64
 
 st.set_page_config(page_title="Contando os dias", page_icon="🌕")
 
-# Ocultar a barra de carregamento do Streamlit
-st.markdown(
-    """
-    <style>
-    .css-1v0mbdj {
-        visibility: hidden;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 
 # Função para converter a imagem local em base64
 def get_base64_of_image(image_path):
@@ -41,6 +29,18 @@ st.markdown(
     h1, h2, h3, h4, h5, h6, p, div, span {{
         color: white !important; /* Garante que todos os textos fiquem brancos */
     }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Ocultar a barra de carregamento do Streamlit
+st.markdown(
+    """
+    <style>
+    .css-1v0mbdj {
+        visibility: hidden;
+    }
     </style>
     """,
     unsafe_allow_html=True
