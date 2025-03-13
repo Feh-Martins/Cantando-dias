@@ -4,6 +4,20 @@ import time
 import base64
 
 st.set_page_config(page_title="Contando os dias", page_icon="🌕")
+
+# Ocultar a barra de carregamento do Streamlit
+st.markdown(
+    """
+    <style>
+    .css-1v0mbdj {
+        visibility: hidden;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # Função para converter a imagem local em base64
 def get_base64_of_image(image_path):
     with open(image_path, "rb") as img_file:
